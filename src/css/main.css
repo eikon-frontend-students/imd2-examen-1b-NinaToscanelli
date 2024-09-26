@@ -75,23 +75,52 @@ video {
 
 /* 01. Sélecteurs CSS */
 
-/* 02. Centrer horizontalement */
+h3,
+h4 {
+  font-family: "Libre Baskerville";
+}
 
+.section-sport h4 {
+  color: #78290f;
+}
+
+.section-culture h4 {
+  color: #15616d;
+}
+
+.section-regions .first {
+  font-weight: bold;
+}
+
+.first.highlighted {
+  background-color: #faf0ca;
+}
+
+/* 02. Centrer horizontalement */
+.calltoaction-container {
+  display: flex;
+  justify-content: center;
+}
 .calltoaction {
   margin-bottom: 15px;
   padding: 15px 30px;
   background: #fdf0d5;
   border: 1px solid #c1121f;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
 }
 
 .link {
+  margin: auto;
   width: 250px;
   padding: 15px 0;
   background: #003049;
   color: #fdf0d5;
   font-family: "Libre Baskerville";
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
 }
 
 /* 03. Centrer verticalement */
@@ -103,6 +132,8 @@ video {
   padding: 20px;
   border-radius: 10px;
   background: #669bbc;
+  display: flex;
+  align-items: center;
 }
 
 .button {
@@ -111,6 +142,7 @@ video {
   background: #780000;
   color: #fdf0d5;
   text-align: center;
+  padding: 15px 0;
 }
 
 /* 04. Intégration */
